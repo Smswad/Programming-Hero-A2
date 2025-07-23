@@ -1,0 +1,79 @@
+/* font-family */
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* similar styles */
+
+/* similar font-weights */
+
+.font-Bold{
+    font-weight: 700;
+}
+.font-Normal{
+    font-weight:400;
+}
+
+
+
+/* similar colors */
+
+.body-color{
+    background-color: rgba(245, 248, 255, 1);
+}
+
+.font-Dark-Grayish-Navy{
+    color: #252432;
+}
+
+.font-black{
+    color: #000000;
+}
+
+.font-Dark-grayish-blue{
+    color: rgba(137, 135, 161, 1);
+}
+
+
+/* header styles */
+
+.nav-bar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 30px;
+    
+}
+
+.menu-items{
+    display: flex;
+    font-size: 1rem;
+}
+
+.purchase{
+    display: flex;
+    
+}
+
+.cart{
+    margin-left: 10px;
+}
+
+.menu-item{
+    margin-left: 48px;
+    list-style: none;
+}
+
+.nav-link{
+    text-decoration: none;
+    
+}
+
+.Home{
+    font-size: 1rem;
+    font-weight: 700;
+}
