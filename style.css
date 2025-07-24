@@ -227,7 +227,7 @@ body{
     
 }
 
-.trusted-seller::after{
+/* .trusted-seller::after{
     content: '';
     position: absolute;
     bottom: 0;
@@ -240,7 +240,7 @@ body{
     filter: blur(4px);
     z-index: -1;
 
-}
+} */
 
 .lovers-writtings{
     margin-left: 60px;
@@ -355,11 +355,58 @@ body{
     }
 
     .add-to-cart-button{
-    font-size: 1rem;
-    width: 171px;
-    padding: 19px 30.5px;
+        font-size: 1rem;
+        width: 171px;
+        padding: 19px 30.5px;
+    }
+
+    /* Flower & Plants Lover */
+
+    .flower-plants-lover{
+        flex-direction: column;
+        margin: 0 auto;
+        margin-top: 41.5px;
+
+    }
+
+
+    .flower-garden{
+        width: 358px;
+        height: 396px;
+        margin: 0 auto;
+        margin-left: 18px;
+        margin-right: 18px;
+
+    }
+
+    .lovers-image{
+        margin: 0 auto;
+
+    }
+
+    .trusted-seller{
+        display:none;
     
-}
+    }
+
+    .lovers-head{
+        font-size: 1.5rem;
+    }
+
+    .lovers-description{
+        font-size: 0.875rem;
+    }
+    .lovers-writtings{
+        margin: 0 auto;
+        margin-top: 18px;
+    }
+
+    .lovers-writtings ul li{
+        margin: 0 auto;
+        margin-top: 16px;
+    }
+
+
 
  
 }
