@@ -32,7 +32,15 @@ body{
     font-weight: 700;
 }
 .font-Normal{
-    font-weight:400;
+    font-weight: 400;
+}
+
+.font-Medium{
+    font-weight: 500;
+}
+
+.font-Semi-Bold{
+    font-weight: 600;
 }
 
 
@@ -63,6 +71,9 @@ body{
     color: rgba(122, 124, 127, 1);
 }
 
+.font-Pure-White{
+    color: rgba(255, 255, 255, 1);
+}
 
 
 /* header styles */
@@ -133,6 +144,66 @@ body{
     font-size: 1.375rem;
      
 }
+
+/* main styles */
+
+/* Plants Styles */
+
+.plants{
+    margin: 0 auto;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 1140px;
+    text-align: center;
+    margin-top: 120px;
+}
+
+.plants-head{
+    font-size: 3.125rem;
+}
+
+.plants-description{
+    font-size: 1.375rem;
+    margin-top: 16px;
+}
+.item-card{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.add-item{
+    margin-top: 49px;
+}
+
+.flower-name{
+    font-size: 1.375rem;
+    margin-top: 30px;
+}
+
+.price{
+    font-size: 1.375rem;
+    margin-top: 20px;
+}
+
+.add-to-cart-button{
+    font-size: 1rem;
+    margin-top: 30px;
+    padding: 19px 80px;
+    width: 270px;
+    height: 50px;
+    background-color:rgba(233, 90, 8, 1) ;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
