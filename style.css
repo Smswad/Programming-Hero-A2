@@ -5,6 +5,23 @@
   font-style: normal;
 }
 
+.noto-serif-normal {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+body{
+    margin: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
 /* similar styles */
 
 
@@ -38,8 +55,19 @@
     color: rgba(137, 135, 161, 1);
 }
 
+.font-Dark-orange{
+    color: rgba(233, 90, 8, 1);
+}
+
+.font-color-Steel-Gray{
+    color: rgba(122, 124, 127, 1);
+}
+
+
 
 /* header styles */
+
+/* navbar styles */
 
 .nav-bar{
     display:flex;
@@ -80,13 +108,96 @@
     font-weight: 700;
 }
 
+/* banner styles */
+
+.banner{
+    display: flex;
+    margin: 0 auto;
+    max-width: 1140px;
+    justify-content: center;
+    margin-top: 120px;
+}
+.banner-left{
+    margin-top: 56px;
+}
+.banner-right{
+    
+}
+.banner-head{
+    font-size: 4.063rem;
+    margin: 0 auto;
+
+}
+
+.banner-discription{
+    font-size: 1.375rem;
+     
+}
+
+
+
+
+
+
+
 /* Responsive for iPhone 14 Pro Max(Large Mobile Device) */
 
 @media screen and (max-width: 430px) {
+/* navbar styles */
+    .nav-bar{
+        margin-left: 16px;
+        margin-right: 16px;
+    }    
     .hide{
         display: none;
     }
+    .logo{
+        max-width: 63px;
+    }
+/* banner styles */
+    .banner{
+        flex-direction: column-reverse;
+        margin: 0 auto;
+        margin-top: 28px;
+        
+    }
 
+    .banner-left{
+        margin: 0 auto;
+        margin-top: 28px;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+
+    .banner-head{
+        font-size: 1.5rem;
+        margin: 0 auto;
+    }
+
+    .banner-discription{
+        font-size: 0.875rem;
+        text-align: left;
+        margin-top: 13px;
+     
+    }
+
+    .banner-right{
+        display: flex;
+        justify-content: flex-end;
+        
+   
+    }
+
+    .hero-flower{
+        max-width: 393.18px;
+        
+        justify-content: right;
+        
+    }
+
+    
+
+    
    
  
 }
