@@ -195,8 +195,70 @@ body{
     border: none;
 }
 
+/* Flower & Plants Lover */
 
+.flower-plants-lover{
+    display: flex;
+    max-width: 1140px;
+    justify-content: center;
+    /* align-items: center; */
+    margin: 0 auto;
+    margin-top: 210.13px;
 
+}
+
+.relative-image{
+    position: relative;
+}
+
+.flower-garden{
+    width: 540px;
+    height: 597px;
+
+}
+
+.trusted-seller{
+    width: 286px;
+    height: 286px;
+    position: absolute;
+    left: 350px;
+    bottom:450px;
+    display: block;
+    
+}
+
+.trusted-seller::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60%;
+    height: 15px;
+    background: rgba(0, 0, 0, 0.25);
+    border-radius: 50%;
+    filter: blur(4px);
+    z-index: -1;
+
+}
+
+.lovers-writtings{
+    margin-left: 60px;
+    margin-top: 38px;
+
+}
+
+.lovers-writtings ul li{
+    margin-top: 20px;
+}
+
+.lovers-head{
+    font-size: 3.125rem;
+}
+
+.lovers-description{
+    font-size: 1.375rem;
+}
 
 
 
