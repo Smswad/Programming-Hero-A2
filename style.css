@@ -636,7 +636,33 @@ input[type="submit"]{
         font-size: 1rem;
     }
 
+/* Join section */
+    .join-bg-img{
+        height: 275px;
+        margin: 0 auto;
+        margin-top: 44.5px;
+       
+    }
 
+    .join-bg-img .join-content{
+        margin: 0 auto;
+        margin-top: 110.5px;
+
+        
+    }
+
+    .join-content-head{
+        font-size: 1.25rem;
+    }
+
+    input[type="email"]{
+        width: 218px;
+    }
+
+    input[type="submit"]{
+        width: 103px;
+        padding: 19px 12px;
+    }
 
  
 }
