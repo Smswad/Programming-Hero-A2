@@ -539,6 +539,57 @@ body{
         margin-top: 16px;
     }
 
+/* Latest Deals */
+
+    .deal-writtings{
+        max-width: 393px;
+        margin: 0 auto;
+        margin-top: 143px;
+    }
+    .deal-head{
+        font-size: 1.5rem;
+
+    }
+
+    .deal-description{
+        margin: 0 auto;
+        font-size: 0.875rem;
+        text-align: center;
+        margin-top: 16px;
+        margin-left: 28.5px;
+        margin-right: 28.5px;
+    }
+    .deal-pictures{
+        flex-direction: column;
+        margin: 0 auto;
+        margin-top: 51.5px;
+    }
+
+    .ana{
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    
+    .zabo{
+        width: 367px;
+        height: 206px;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    
+    .big-content{
+        margin-top: 65px;
+
+    }
+
+    .big-content-head{
+        font-size: 1.25rem;
+    }
+
+    .big-content-button{
+        font-size: 1rem;
+    }
+
 
 
  
