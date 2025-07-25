@@ -469,12 +469,17 @@ footer ul li{
 }
 
 .social-media-icon{
+    margin: 0 auto;
     margin-left: 110.67px;
 }
 
 .social-media-icon img{
     margin-right: 20px;
     
+}
+.x-icon{
+    width: 36px;
+    height: 30px;
 }
 
 
@@ -701,6 +706,35 @@ footer ul li{
         width: 103px;
         padding: 19px 12px;
     }
+
+    /* footer */
+    footer{
+        flex-direction: column;
+        margin-left: 20px;
+
+    }
+    .footer-logo{
+        width: 180px;
+        height: 109px;
+    }
+    
+    .footer-description{
+        font-size: 1rem;
+    }
+
+    footer ul li{
+        margin: 0 auto;
+        margin-top: 32px;
+    }
+
+    .social-media-icon{
+        margin: 0;
+        margin-top: 32px;
+        margin-left:0 ;
+        
+    }
+
+
 
  
 }
