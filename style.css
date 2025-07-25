@@ -128,12 +128,11 @@ body{
     justify-content: center;
     margin-top: 120px;
 }
+
 .banner-left{
     margin-top: 56px;
 }
-.banner-right{
-    
-}
+
 .banner-head{
     font-size: 4.063rem;
     margin: 0 auto;
@@ -193,15 +192,21 @@ body{
     height: 50px;
     background-color:rgba(233, 90, 8, 1) ;
     border: none;
+    cursor: pointer;
 }
 
-/* Flower & Plants Lover */
+.add-to-cart-button:hover{
+    color: rgba(233, 90, 8, 1);
+    background-color: rgba(255, 255, 255, 1);
+    
+}
+
+/* Flower & Plants Lover Styles */
 
 .flower-plants-lover{
     display: flex;
     max-width: 1140px;
     justify-content: center;
-    /* align-items: center; */
     margin: 0 auto;
     margin-top: 210.13px;
 
@@ -245,7 +250,7 @@ body{
     font-size: 1.375rem;
 }
 
-/* Latest Deals */
+/* Latest Deals Styles */
 
 .deal-writtings{
     margin: 0 auto;
@@ -391,7 +396,7 @@ body{
 }
 
 
-/* Join the colorful bunch */
+/* Join the colorful bunch styles */
 
 .join-bg-img{
     background-image: url('assets/news-letter-bg.png');
@@ -430,6 +435,7 @@ input[type="email"]{
     width: 644px;
     padding: 15.5px 0 15.5px 20px;
     font-size: 1rem;
+    border: none;
 }
 
 input[type="submit"]{
@@ -438,9 +444,18 @@ input[type="submit"]{
     background-color: rgba(233, 90, 8, 1);
     border: none;
     font-size: 1rem;
+    cursor: pointer;
 }
 
-/* footer */
+input[type="submit"]:hover{
+    color: rgba(233, 90, 8, 1);
+    background-color: rgba(255, 255, 255, 1);
+    border: 2px solid;
+    border-color: rgba(233, 90, 8, 1);
+    border-radius: 5px;
+}
+
+/* footer styles */
 
 footer{
     display: flex;
@@ -461,11 +476,15 @@ footer{
     margin-top: 16px;
 }
 
-footer ul li{
+footer ul li {
     list-style: none;
     margin-left: 110.67px;
     margin-bottom: 32px;
     font-size: 1rem;
+}
+
+footer ul li a{
+    text-decoration: none;
 }
 
 .social-media-icon{
@@ -475,6 +494,7 @@ footer ul li{
 
 .social-media-icon img{
     margin-right: 20px;
+    cursor: pointer;
     
 }
 .x-icon{
@@ -582,7 +602,7 @@ footer ul li{
         padding: 19px 30.5px;
     }
 
-    /* Flower & Plants Lover */
+    /* Flower & Plants Lover styles */
 
     .flower-plants-lover{
         flex-direction: column;
@@ -628,7 +648,7 @@ footer ul li{
         margin-top: 16px;
     }
 
-/* Latest Deals */
+    /* Latest Deals styles */
 
     .deal-writtings{
         max-width: 393px;
@@ -679,7 +699,7 @@ footer ul li{
         font-size: 1rem;
     }
 
-/* Join section */
+    /* Join section styles */
     .join-bg-img{
         height: 275px;
         margin: 0 auto;
@@ -707,7 +727,7 @@ footer ul li{
         padding: 19px 12px;
     }
 
-    /* footer */
+    /* footer styles */
     footer{
         flex-direction: column;
         margin-left: 20px;
